@@ -15,5 +15,5 @@ Authors
 
 Richard Cornish  
 
-[www.richardcornish.com](http://wwww.richardcornish.com)
+[www.richardcornish.com](http://wwww.richardcornish.com)  
 [rich@richardcornish.com](mailto:rich@richardcornish.com)  
