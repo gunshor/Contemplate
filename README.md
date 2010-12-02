@@ -7,10 +7,10 @@ The "wow" file is in web/webpage.psd.
 
 License
 -------
-This work is licensed under the Creative Commons Attribution license.
-http://creativecommons.org/licenses/by/3.0/
-http://creativecommons.org/licenses/by/3.0/legalcode
+This work is licensed under the [Creative Commons Attribution license](http://creativecommons.org/licenses/by/3.0/).
 
 Authors
 -------
-Richard Cornish: rich@richardcornish.com
+Richard Cornish  
+[rich@richardcornish.com](rich@richardcornish.com)  
+[http://wwww.richardcornish.com](http://wwww.richardcornish.com)
