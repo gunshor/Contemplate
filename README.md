@@ -20,7 +20,7 @@ The maximum size of the Facebook Page image is 200x600.
 
 The [Open Graph image](http://developers.facebook.com/docs/opengraph) minimum size is 50x50 and has a maximum aspect ratio of 3:1. That means the widest image is 150 pixels if the minimum height is respected at 50 pixels, and the tallest image is 150 pixels if the minimum width is respected at 50 pixels. I couldn't find information on the image's maximum size, but I suspect Facebook doesn't want to encourage images to be prematurely sized for a website that is constantly in flux, but rather provide general guidelines and let Facebook create optimized images as needs change.
 
-<meta property="og:image" content="http://www.example.com/open_graph.jpg">
+    <meta property="og:image" content="http://www.example.com/open_graph.jpg">
 
 License
 -------
