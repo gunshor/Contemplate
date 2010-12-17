@@ -12,25 +12,25 @@ Apple (App Store screenshots)
 -----------------------------
 The App Store on the iPhone, iPad, and the desktop will resize your artwork slightly for white borders. Be wary about what your text could possibly look like on the iPhone (resized at about 70%). Don't expect pixel perfection. Your artwork will resize as follows:
 
-- iPhone
-    - iPhone app
+- iPhone App Store
+    - iPhone app page
         - Portrait: 277x340
         - Landscape: (App Store doesn't rotate orientation on iPhone)
-    - iPad app
+    - iPad app page
         - Portrait: (Can't download iPad apps on iPhone)
         - Landscape: (Can't download iPad apps on iPhone)
-- iPad
-    - iPhone app
+- iPad App Store
+    - iPhone app page
         - Portrait: 308x464
         - Landscape: 464x308
-    - iPad app
+    - iPad app page
         - Portrait: 358x478
         - Landscape: 478x358
-- Desktop
-    - iPhone app
+- Desktop App Store
+    - iPhone app page
         - Portrait: 318x477
         - Landscape: 478x318
-    - iPad app
+    - iPad app page
         - Portrait: 358x377
         - Landscape: 480x360
   
