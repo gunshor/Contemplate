@@ -8,6 +8,34 @@ Web
 
 The "wow" file is in web/webpage.psd.
 
+Apple (App Store screenshots)
+-----------------------------
+The App Store on the iPhone, iPad, and the desktop will resize your artwork slightly for white borders. Be wary about what your text could possibly look like on the iPhone (resized at about 70%). Don't expect pixel perfection. Your artwork will resize as follows:
+
+- iPhone
+    - iPhone app
+        - Portrait: 277x340
+        - Landscape: (App Store doesn't rotate orientation on iPhone)
+    - iPad app
+        - Portrait: (Can't download iPad apps on iPhone)
+        - Landscape: (Can't download iPad apps on iPhone)
+- iPad
+    - iPhone app
+        - Portrait: 308x464
+        - Landscape: 464x308
+    - iPad app
+        - Portrait: 358x478
+        - Landscape: 478x358
+- Desktop
+    - iPhone app
+        - Portrait: 318x477
+        - Landscape: 478x318
+    - iPad app
+        - Portrait: 358x377
+        - Landscape: 480x360
+  
+The App Store on the iPhone doesn't rotate based on orientation, and so landscape screenshots won't orient correctly. I don't recommend landscape screenshots for iPhone-specific apps, unless the screenshot experience would be diminished by sticking to a portrait screenshot, e.g. Angry Birds.
+
 Favicon
 -------
 
@@ -32,4 +60,4 @@ Authors
 
 Richard Cornish  
 [www.richardcornish.com](http://wwww.richardcornish.com)  
-[rich@richardcornish.com](mailto:rich@richardcornish.com)  
+[rich@richardcornish.com](mailto:rich@richardcornish.com)
