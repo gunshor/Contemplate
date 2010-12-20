@@ -1,7 +1,9 @@
 Contemplate
 ===========
 
-Sensible Photoshop templates, so you don't have to think about it. This project is a work in progress (and most likely always will be). The documentation especially so.
+Sensible Adobe® Photoshop® templates, so you don't have to think about it.
+
+This project is a work in progress (and most likely always will be). The documentation especially so.
 
 A note on graphic templates on today's Web: As we outsource a lot of our distribution channels to companies and applications like Facebook and the iTunes App Store, we have less control over their appearance than ever. Our graphics *will* be resized in many ways and in many future ways we can't yet predict. It may be more reasonable to create generally good graphics that do not have exact one-pixel embosses as a form of future proofing. This is a choice I leave to you.
 
