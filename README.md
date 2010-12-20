@@ -10,9 +10,24 @@ Web
 
 The "wow" file is in web/webpage.psd.
 
-Apple (App Store screenshots)
------------------------------
-The App Store on the iPhone, iPad, and the desktop will resize your artwork slightly for white borders. Be wary about what your text could possibly look like on the iPhone (resized at about 70%). Don't expect pixel perfection. Your artwork will resize as follows:
+Apple: icons
+------------
+
+Devices with different resolutions will need different [media query](http://www.w3.org/TR/css3-mediaqueries/) settings in your HTML for the appropriate icon.
+
+    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 163dpi)" href="/img/apple-touch-icon-57px.png">
+    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 132dpi)" href="/img/apple-touch-icon-72px.png">
+    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 326dpi)" href="/img/apple-touch-icon-114px.png">
+
+For more icon references, please visit:
+
+- [Jon Hicks's Icon Reference](http://hicksdesign.co.uk/iconreference/)
+- [Apple Human Interface Guidelines: Icons](http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html)
+
+Apple: iTunes App Store screenshots
+-----------------------------------
+
+The App Store on the iPhone, iPad, and the desktop will resize your artwork slightly for white borders, killing any pixel-perfect expectations. Be wary about what your text could possibly look like on the iPhone (resized to about 70%). Your artwork will resize as follows:
 
 - iPhone App Store
     - iPhone app page
@@ -30,13 +45,24 @@ The App Store on the iPhone, iPad, and the desktop will resize your artwork slig
         - Landscape: 478x358
 - Desktop App Store
     - iPhone app page
-        - Portrait: 318x477
+        - Portrait: 318x478
         - Landscape: 478x318
     - iPad app page
         - Portrait: 358x377
-        - Landscape: 480x360
+        - Landscape: 480x360 (Not sure why this is full)
   
-The App Store on the iPhone doesn't rotate based on orientation, and so landscape screenshots won't orient correctly. I don't recommend landscape screenshots for iPhone-specific apps, unless the screenshot experience would be diminished by sticking to a portrait screenshot, e.g. Angry Birds.
+The App Store on the iPhone doesn't rotate based on orientation, and so landscape screenshots won't orient correctly. I don't recommend landscape screenshots for iPhone-specific apps, unless the screenshot experience would be diminished by sticking to a portrait screenshot, e.g. [Angry Birds](http://itunes.apple.com/us/app/angry-birds/id343200656) or some other landscape-heavy app.
+
+Apple: Mockup
+-------------
+
+The mockups of the iPhone, iPhone 4, and iPad are stripped-down versions of the gorgeous Teehan+Lax mockups, convenient if you just need a quick mockup of the front of the device. Please visit their website to download the full versions and donate if you can. 
+
+- [iPhone 4](http://www.teehanlax.com/blog/2010/06/14/iphone-gui-psd-v4/)
+- [iPhone 4 Retina Display](http://www.teehanlax.com/blog/2010/08/12/iphone-4-gui-psd-retina-display/)
+- [iPad](http://www.teehanlax.com/blog/2010/02/01/ipad-gui-psd/)
+
+[Apple's PR product info images](http://www.apple.com/pr/products/) are nice, but they are all merged TIFF files without any of the user interface elements.
 
 Favicon
 -------
