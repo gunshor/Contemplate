@@ -80,6 +80,13 @@ The [Open Graph image](http://developers.facebook.com/docs/opengraph) minimum si
 
     <meta property="og:image" content="http://www.example.com/open_graph.jpg">
 
+PayPal
+------
+
+Images for [co-branding the PayPal Checkout pages](http://help.yahoo.com/l/us/yahoo/smallbusiness/store/order/paypal/paypal-08.html).
+
+https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_html_ProfileAndTools#id08A9E8005PM
+
 License
 -------
 
