@@ -83,9 +83,7 @@ The [Open Graph image](http://developers.facebook.com/docs/opengraph) minimum si
 PayPal
 ------
 
-Images for [co-branding the PayPal Checkout pages](http://help.yahoo.com/l/us/yahoo/smallbusiness/store/order/paypal/paypal-08.html).
-
-https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_html_ProfileAndTools#id08A9E8005PM
+Images for [co-branding the PayPal Checkout pages](https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_html_ProfileAndTools#id08A9E8005PM). Also see [Yahoo's take](http://help.yahoo.com/l/us/yahoo/smallbusiness/store/order/paypal/paypal-08.html) on it.
 
 License
 -------
