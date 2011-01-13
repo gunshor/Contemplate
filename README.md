@@ -17,14 +17,16 @@ Apple: icons
 
 Devices with different resolutions will need different [media query](http://www.w3.org/TR/css3-mediaqueries/) settings in your HTML for the appropriate icon.
 
-    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 163dpi)" href="/img/apple-touch-icon-57px.png">
-    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 132dpi)" href="/img/apple-touch-icon-72px.png">
-    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 326dpi)" href="/img/apple-touch-icon-114px.png">
+    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 163dpi)" href="/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 132dpi)" href="/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 326dpi)" href="/img/apple-icon-114x114.png">
 
 For more icon references, please visit:
 
 - [Jon Hicks's Icon Reference](http://hicksdesign.co.uk/iconreference/)
 - [Apple Human Interface Guidelines: Icons](http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html)
+
+If you're submitting an app to the App Store, you'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you may customize each icon if you so prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456).
 
 Apple: iTunes App Store screenshots
 -----------------------------------
@@ -58,7 +60,7 @@ The App Store on the iPhone doesn't rotate based on orientation, and so landscap
 Apple: Mockup
 -------------
 
-The mockups of the iPhone, iPhone 4, and iPad are stripped-down versions of the gorgeous Teehan+Lax mockups, convenient if you just need a quick mockup of the front of the device. Please visit their website to download the full versions and donate if you can. 
+The mockups of the iPhone, iPhone 4, and iPad are stripped-down versions of the gorgeous Teehan+Lax mockups, convenient if you just need a quick mockup of the front of the device. All proper credit and thanks goes to them, and I make no illusions of ownership or otherwise. Please visit their website to download the full versions and donate if you can. 
 
 - [iPhone 4](http://www.teehanlax.com/blog/2010/06/14/iphone-gui-psd-v4/)
 - [iPhone 4 Retina Display](http://www.teehanlax.com/blog/2010/08/12/iphone-4-gui-psd-retina-display/)
