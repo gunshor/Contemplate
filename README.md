@@ -21,14 +21,14 @@ Devices with different resolutions will need different [media query](http://www.
     <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 132dpi)" href="/img/apple-icon-72x72.png">
     <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 326dpi)" href="/img/apple-icon-114x114.png">
 
-*Please* turn off the Apple Gloss group and disable the Icon group's vector mask when you save your icon. Apple will applies these same effects for you, and so the idea is that the gloss and vector mask act to *preview* how the icon will look so you can make adjustments as necessary. I can't guarantee that these effects are identical (because I painstakingly reverse engineered them), but I stand behind them and their resolution-independent vector shape/mask goodness.
+*Please* turn off the Apple Gloss group and disable the Icon group's vector mask when you save your icon. Apple will apply these effects for you; the idea is that the gloss and vector mask act to *preview* how the icon will look so you can make adjustments as necessary. I can't guarantee that these effects are identical to Apple's (because I painstakingly reverse engineered them), but I stand behind them and their resolution-independent vector shape/mask goodness.
 
 For more icon references, please visit:
 
 - [Jon Hicks's Icon Reference](http://hicksdesign.co.uk/iconreference/)
 - [Apple Human Interface Guidelines: Icons](http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html)
 
-If you're submitting an app to the App Store, you'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you may customize each icon if you so prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456).
+If you're submitting an app to the App Store, you'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you can customize each icon if you so prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456).
 
 Apple: iTunes App Store screenshots
 -----------------------------------
