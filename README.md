@@ -12,7 +12,7 @@ Web
 
 The "wow" file is in web/webpage.psd.
 
-Apple: icons
+Apple: Icons
 ------------
 
 Devices with different resolutions will need different [media query](http://www.w3.org/TR/css3-mediaqueries/) settings in your HTML for the appropriate icon.
@@ -30,7 +30,7 @@ For more icon references, please visit:
 
 If you're submitting an app to the App Store, you'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you can customize each icon if you so prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456).
 
-Apple: iTunes App Store screenshots
+Apple: App Store screenshots
 -----------------------------------
 
 The App Store on the iPhone, iPad, and the desktop will resize your artwork slightly for white borders, killing any pixel-perfect expectations. Be wary about what your text could possibly look like on the iPhone (resized to about 70%). Your artwork will resize as follows:
@@ -59,16 +59,19 @@ The App Store on the iPhone, iPad, and the desktop will resize your artwork slig
   
 The App Store on the iPhone doesn't rotate based on orientation, and so landscape screenshots won't orient correctly. I don't recommend landscape screenshots for iPhone-specific apps, unless the screenshot experience would be diminished by sticking to a portrait screenshot, e.g. [Angry Birds](http://itunes.apple.com/us/app/angry-birds/id343200656) or some other landscape-heavy app.
 
-Apple: Mockup
--------------
+Apple: PR
+---------
+
+Proper transparent RGB versions of [Apple's PR product info images](http://www.apple.com/pr/products/). Apple's images are merged CMYK TIFF files and are thus typically difficult or unsuitable to use.
+
+Apple: Teehan+Lax
+-----------------
 
 The mockups of the iPhone, iPhone 4, and iPad are stripped-down versions of the gorgeous Teehan+Lax mockups, convenient if you just need a quick mockup of the front of the device. All proper credit and thanks goes to them, and I make no illusions of ownership or otherwise. Please visit their website to download the full versions and donate if you can. 
 
 - [iPhone 4](http://www.teehanlax.com/blog/2010/06/14/iphone-gui-psd-v4/)
 - [iPhone 4 Retina Display](http://www.teehanlax.com/blog/2010/08/12/iphone-4-gui-psd-retina-display/)
 - [iPad](http://www.teehanlax.com/blog/2010/02/01/ipad-gui-psd/)
-
-[Apple's PR product info images](http://www.apple.com/pr/products/) are nice, but they are all merged TIFF files without any of the user interface elements.
 
 Favicon
 -------
@@ -78,16 +81,21 @@ I suggest [Telegraphics's free plugins](http://www.telegraphics.com.au/sw/) for 
 Facebook
 --------
 
-The maximum size of the Facebook Page image is 200x600.
+The maximum size of the Facebook Page image is 180x540.
 
 The [Open Graph image](http://developers.facebook.com/docs/opengraph) minimum size is 50x50 and has a maximum aspect ratio of 3:1. That means the widest image is 150 pixels if the minimum height is respected at 50 pixels, and the tallest image is 150 pixels if the minimum width is respected at 50 pixels. I couldn't find information on the image's maximum size, but I suspect Facebook doesn't want to encourage images to be prematurely sized for a website that is constantly in flux, but rather provide general guidelines and let Facebook create optimized images as needs change.
 
     <meta property="og:image" content="http://www.example.com/open_graph.jpg">
 
+Twitter
+-------
+
+Because Twitter centers its background, creating a good background image is difficult in a static document. The Twitter template shows what the center content column would look like on different screen resolutions. The old Twitter design offers between 19 and 259 pixels for a design visible next to the center content column, and the new Twitter design, which uses a max-width, offers between 52 to 120 pixels visible.
+
 PayPal
 ------
 
-Images for [co-branding the PayPal Checkout pages](https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_html_ProfileAndTools#id08A9E8005PM). Also see [Yahoo's take](http://help.yahoo.com/l/us/yahoo/smallbusiness/store/order/paypal/paypal-08.html) on it.
+Templates for [co-branding the PayPal Checkout pages](https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_html_ProfileAndTools#id08A9E8005PM). Also see [Yahoo's take](http://help.yahoo.com/l/us/yahoo/smallbusiness/store/order/paypal/paypal-08.html) on it.
 
 License
 -------
