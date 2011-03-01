@@ -64,6 +64,8 @@ Apple: PR
 
 Proper transparent RGB versions of [Apple's PR product info images](http://www.apple.com/pr/products/). Apple's images are merged CMYK TIFF files and are thus typically difficult or unsuitable to use.
 
+If you're curious to know how to size the facing view of the iPhone 4 image (cropped to itself) so that the interior screen becomes 320x480, it's 37.5%. You're welcome.
+
 Apple: Teehan+Lax
 -----------------
 
