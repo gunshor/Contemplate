@@ -15,20 +15,22 @@ The "wow" file is in web/webpage.psd.
 Apple: Icons
 ------------
 
-Devices with different resolutions will need different [media query](http://www.w3.org/TR/css3-mediaqueries/) settings in your HTML for the appropriate icon.
+*Please* turn off the Apple Gloss group and disable the Icon group's vector mask when you save your icon. Apple will apply these effects for you; the idea is that the gloss and vector mask act to *preview* how the icon will look so you can make adjustments as necessary. I can't guarantee that these effects are identical to Apple's (because I painstakingly reverse engineered them), but I stand behind them and their resolution-independent vector shape/mask goodness.
+
+If you would like to use some of the packaged gloss/shade effects but not others (or if you prefer creating your own effects), either turn on the pre-composed setting in your Web app's HTML or check the appropriate checkbox when submitting your native app to the iTunes App Store.
+
+If you're creating a Web app: Devices with different resolutions will need different [media query](http://www.w3.org/TR/css3-mediaqueries/) settings in your HTML for the appropriate icon.
 
     <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 163dpi)" href="/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 132dpi)" href="/img/apple-icon-72x72.png">
     <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 326dpi)" href="/img/apple-icon-114x114.png">
 
-*Please* turn off the Apple Gloss group and disable the Icon group's vector mask when you save your icon. Apple will apply these effects for you; the idea is that the gloss and vector mask act to *preview* how the icon will look so you can make adjustments as necessary. I can't guarantee that these effects are identical to Apple's (because I painstakingly reverse engineered them), but I stand behind them and their resolution-independent vector shape/mask goodness.
+If you're submitting a native app to the iTunes App Store: You'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you can customize each icon if you so prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456).
 
 For more icon references, please visit:
 
 - [Jon Hicks's Icon Reference](http://hicksdesign.co.uk/iconreference/)
 - [Apple Human Interface Guidelines: Icons](http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html)
-
-If you're submitting an app to the App Store, you'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you can customize each icon if you so prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456).
 
 Apple: App Store screenshots
 -----------------------------------
@@ -83,7 +85,7 @@ I suggest [Telegraphics's free plugins](http://www.telegraphics.com.au/sw/) for 
 Facebook
 --------
 
-The maximum size of the Facebook Page image is 180x540.
+The Facebook profile and page image's maximum size is 180x540.
 
 The [Open Graph image](http://developers.facebook.com/docs/opengraph) minimum size is 50x50 and has a maximum aspect ratio of 3:1. That means the widest image is 150 pixels if the minimum height is respected at 50 pixels, and the tallest image is 150 pixels if the minimum width is respected at 50 pixels. I couldn't find information on the image's maximum size, but I suspect Facebook doesn't want to encourage images to be prematurely sized for a website that is constantly in flux, but rather provide general guidelines and let Facebook create optimized images as needs change.
 
@@ -92,7 +94,7 @@ The [Open Graph image](http://developers.facebook.com/docs/opengraph) minimum si
 Twitter
 -------
 
-Because Twitter centers its background, creating a good background image is difficult in a static document. The Twitter template shows what the center content column would look like on different screen resolutions. The old Twitter design offers between 19 and 259 pixels for a design visible next to the center content column, and the new Twitter design, which uses a max-width, offers between 52 to 120 pixels visible.
+Because Twitter centers its background image, creating a good background image is difficult in a static document. The Twitter template shows what the center content column would look like on different screen resolutions. The old Twitter design offered between 19 and 259 pixels of visibility next to the center column, and the new Twitter design, which uses a `max-width` in its CSS, offers between 52 to 120 pixels of visibility.
 
 PayPal
 ------
@@ -104,8 +106,8 @@ License
 
 This work is licensed under the [Creative Commons Attribution license](http://creativecommons.org/licenses/by/3.0/).
 
-Authors
--------
+Author
+------
 
 Richard Cornish  
 [www.richardcornish.com](http://wwww.richardcornish.com)  
