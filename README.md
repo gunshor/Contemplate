@@ -15,22 +15,17 @@ The "wow" file is in web/webpage.psd.
 Apple: Icons
 ------------
 
-*Please* turn off the Apple Gloss group and disable the Icon group's vector mask when you save your icon. Apple will apply these effects for you; the idea is that the gloss and vector mask act to *preview* how the icon will look so you can make adjustments as necessary. I can't guarantee that these effects are identical to Apple's (because I painstakingly reverse engineered them), but I stand behind them and their resolution-independent vector shape/mask goodness.
+*Please* turn off the Apple Gloss group and disable the Icon group's vector mask when you save your icon. Apple will apply these effects for you; the idea is that the gloss and vector mask act to *preview* how the icon will look so you can make adjustments as necessary, and doubling the effects again won't look pretty. I can't guarantee that these effects are identical to Apple's (because I painstakingly reverse engineered them), but I stand behind them and their resolution-independent vector mask goodness.
 
-If you would like to use some of the packaged gloss/shade effects but not others (or if you prefer creating your own effects), either turn on the pre-composed setting in your Web app's HTML or check the appropriate checkbox when submitting your native app to the iTunes App Store.
+If you would like to use some of the packaged gloss/shade effects but not others (or if you prefer creating your own effects), either turn on the pre-composed setting in your Web app's HTML (`<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">`) or check the appropriate checkbox when submitting your native app to the iTunes App Store. Check out the YouTube and Weather app icons for some beautifully subtle and customized uses of the glare but not other effects.
 
-If you're creating a Web app: Devices with different resolutions will need different [media query](http://www.w3.org/TR/css3-mediaqueries/) settings in your HTML for the appropriate icon.
-
-    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 163dpi)" href="/img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 132dpi)" href="/img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" type="image/png" media="screen and (resolution: 326dpi)" href="/img/apple-icon-114x114.png">
-
-If you're submitting a native app to the iTunes App Store: You'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you can customize each icon if you so prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456).
+If you're submitting a native app to the iTunes App Store: You'll want to use the 512x512 icon, because it's required, and iOS will resize it in all other references; however, you can customize each icon for pixel perfection and smaller downloads if you prefer, like [The Incident](http://itunes.apple.com/us/app/the-incident/id385533456) does.
 
 For more icon references, please visit:
 
-- [Jon Hicks's Icon Reference](http://hicksdesign.co.uk/iconreference/)
-- [Apple Human Interface Guidelines: Icons](http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html)
+- [Icon Reference](http://hicksdesign.co.uk/iconreference/) by Jon Hicks
+- [Everything you always wanted to know about touch icons](http://mathiasbynens.be/notes/touch-icons) by Mathias Bynens
+- [Human Interface Guidelines: Icons](http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html) by Apple
 
 Apple: App Store screenshots
 -----------------------------------
