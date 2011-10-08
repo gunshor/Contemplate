@@ -1,0 +1,136 @@
+These character sets are not exhaustive, but merely a quick reference for common characters.
+
+Quotation
+‘  &#8216; \2018 Open single quotation mark
+’  &#8217; \2019 Closed single quotation mark / Apostrophe
+“  &#8220; \201C Open double quotation mark
+”  &#8221; \201D Closed double quotation mark
+'    &#39; \0027 Typewriter single quotation mark
+"    &#34; \0022 Typewriter double quotation mark
+′  &#8242; \2032 Prime (Feet / Minutes)
+″  &#8243; \2033 Double prime (Inches / Seconds)
+‚  &#8218; \201A Single low-9 quotation mark
+„  &#8222; \201E Double low-9 quotation mark
+‹  &#8249; \2039 Single angle quote left (single guillemet left)
+›  &#8250; \203A Single angle quote right (single guillemet right)
+«   &#171; \00AB Double angle quote left (double guillemet left)
+»   &#187; \00BB Double angle quote right (double guillemet right)
+「 &#x300C; \300C Left corner bracket (outermost)
+」 &#x300C; \300D Right corner bracket (outermost)
+『 &#x300C; \300E Left corner bracket (innermost)
+』 &#x300C; \300F Right corner bracket (innermost)
+`    &#96; \0060 Grave accent/reversed apostrophe with no letter
+´   &#180; \00B4 Acute accent with no letter
+
+Punctuation
+&   &#38; Ampersand
+- &#8210; Hyphen (Compound modifiers)
+– &#8211; En dash (Range of numbers)
+— &#8212; Em dash (Dramatic pause)
+… &#8230; Ellipsis (Three dot leader)
+¡  &#161; Inverted exclamation mark
+¿  &#191; Inverted question mark
+‽ &#8253; Interrobang
+⸮ Irony
+• &#8226; Bullet (Black small circle)
+·  &#183; Middle dot / Interpunct (Multiplication / £1·50)
+
+Ligatures
+ﬀ ff
+ﬁ fi
+ﬂ fl
+ﬅ ft
+ﬃ ffi
+ﬄ ffl
+ﬅ ft
+Æ AE
+æ ae
+Œ Oe
+œ oe
+ᵫ ue
+Ĳ IJ
+ĳ ij
+ß fs/fz
+ﬆ st
+
+Numbers
++   &#43; Plus sumbol (Addition)
+− &#8722; Minus symbol (Subtraction)
+×  &#215; Times symbol (Multiplication)
+÷  &#247; Division symbol (Division)
+±  &#177; Plus/minus symbol
+<   &#60; Less-than symbol
+>   &#62; Greater-than symbol
+≤ &#8804; Less-than-or-equal-to symbol
+≥ &#8805; Greater-than-or-equal-to symbol
+≠ &#8800; Not-equal-to symbol
+¹  &#185; Superscript 1 (<sup>1</sup> preferrable)
+²  &#178; Superscript 2 (<sup>2</sup> preferrable)
+³  &#179; Superscript 3 (<sup>3</sup> preferrable)
+√ &#8730; Square root
+⁄ &#8260; Fraction slash (Solidus)
+°  &#176; Degree
+‰ &#8240; Per mil
+№ &#8470; Number symbol
+∞ &#8734; Infinity
+
+Fractions
+½  &#189; Half fraction
+¼  &#188; Quarter fraction
+¾  &#190; Three-quarters fraction
+⅓ &#8531; One-third fraction
+⅔ &#8532; Two-thirds fraction
+⅕ &#8533; One-fifth fraction
+⅖ &#8534; Two-fifths fraction
+⅗ &#8535; Three-fifths fraction
+⅘ &#8536; Four-fifths fraction
+⅙ &#8537; One-sixth fraction
+⅚ &#8538; Five-sixths fraction
+⅛ &#8539; One-eighth fraction
+⅜ &#8540; Three-eighths fraction
+⅝ &#8541; Five-eighths fraction
+⅞ &#8542; Seven-eighths fraction
+
+Currency
+¢  &#162; Cent
+£  &#163; Sterling pound
+€ &#8364; Euro
+¥  &#165; Yen
+¤  &#164; Currency
+
+Diacritics
+é  &#232; Lower-case "e" with grave accent
+í  &#237; Lower-case "i" with acute accent
+ó  &#243; Lower-case "o" with acute accent
+ñ  &#241; Lower-case "n" with tilde
+ë  &#235; Lower-case "e" with umlaut
+ü  &#252; Lower-case "u" with umlaut
+ç  &#231; Lower-case "c" with cedilla
+
+Spaces
+ &#160; Non-breaking space
+&#8194; En space
+&#8195; Em space
+&#8196; 3-per-em space  
+&#8197; 4-per-em space  
+&#8198; 6-per-em space  
+&#8199; figure space  
+&#8200; punctuation space
+&#8201; thin space
+&#8202; hair space
+
+Symbols
+℅   &#8453; Care of
+℞   &#8478; Pharmaceutical
+©    &#169; Copyright symbol
+®    &#174; Registered symbol
+℗  &#x2117; Sound recording copyright
+™   &#8482; Trademark symbol
+℠   &#8480; Service mark symbol
+§    &#167; Section symbol
+☺   &#9786; Smiley face
+☹   &#9785; Frowning face
+♠   &#9824; Filled spade suit
+♣   &#9827; Filled club suit
+♥   &#9829; Filled heart suit
+♦   &#9830; Filled diamond suit
