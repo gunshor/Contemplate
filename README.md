@@ -34,7 +34,7 @@ Proper transparent RGB versions of [Apple's PR product info images](http://www.a
 
 If you're curious to know how to size the facing view of the iPhone 4 image (cropped to itself) so that the interior screen becomes 320x480, it's 37.5%. You're welcome.
 
-For proper GUIs of all interface pieces of the iPhone, iPhone 4, and iPad, check out the excellent [Teehan+Lax downloads](http://www.teehanlax.com/downloads/).
+For proper GUIs of all interface pieces of the iPhone, iPhone 4, and iPad, check out the excellent [Teehan+Lax downloads](http://www.teehanlax.com/downloads/). And [Marshall Block's mockups](http://blog.marshallbock.com/post/12040410577/iphone-4s-template) are quite possibly obsessively perfect vector re-creations of the Apple PR photos.
 
 Favicon
 -------
